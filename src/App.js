@@ -1,8 +1,8 @@
 import "./styles.css";
 import React, {useState} from "react";
-import Field from "./components/field";
-import Languages from "./components/languages";
-import Translate from "./components/translate";
+import Field from "./components/Field";
+import Languages from "./components/Language";
+import Translate from "./components/Translate";
 
 export default function App() {
   const [language, setLanguage] = useState("ru");
